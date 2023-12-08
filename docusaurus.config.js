@@ -11,24 +11,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ifcaddict.github.io',
+  url: 'https://my-web-site',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'IfcAddict', // Usually your GitHub org/user name.
-  projectName: 'PEB', // Usually your repo name.
-
-  // Añadidas para asegurar compatibilidad con Github
-  trailingSlash: false,
-
-  // Si nuestra rama de publicación en Github no es gh-pages debe indicarse
-  // descomentando la siguiente línea e indicando la rama correspondiente
-  // deploymentBranch: 'NombreDeLaRamaDePublicación'
-
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
