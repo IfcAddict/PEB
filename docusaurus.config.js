@@ -14,7 +14,7 @@ const config = {
   url: 'https://IfcAddict.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/PEB/',
   organizationName: 'IfcAddict', // Usually your GitHub org/user name.
   projectName: 'PEB', // Usually your repo name.
 
